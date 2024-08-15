@@ -28,4 +28,3 @@ jobs:
       
     - name: Deploy
       run: sed -i "s/KV_NAME/v2ray_worker/g" wrangler.toml && npx wrangler deploy --api-token TylHBMMcyyYo8pY96_lRhsfsiGI03WWcP43dd-dS --account-id 210a1963e67637c32077f3d717642d97
-
